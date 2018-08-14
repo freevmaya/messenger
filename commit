@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /home/vmaya/messenger
+mdate="$(date +%d-%m-%Y\ %H:%M:%S)"
+git commit -a -m "$mdate"
+git push origin master
